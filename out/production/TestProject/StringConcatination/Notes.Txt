@@ -1,0 +1,35 @@
+Class 2:
+  String is a class that can represent combination of multiple characters enclosed in " "
+
+  When we have a String value and we want to attach any other type of value to it we use + => plays roles as
+  concatenation operator
+
+  Operators in Java
+
+  = assignment operator
+
+  arithmetical operators:
+  +, -, *, /, %=reminder operator
+  relational and equality >, >=, <,<=,==,!=
+
+  Result of relational and equality ALWAYS boolean value(true, false)
+
+  if Statement
+  SYNTAX OF IF STATEMENT
+
+  if( boolean condition){
+     code;
+     }else{
+     code;
+     }
+  }
+  -------------------------------------------------------------
+  if(condition){
+  code A;
+  }else if(condition2){
+  code B;
+  }else if(condition3){
+  code C;
+  }else{
+     else code;
+  }

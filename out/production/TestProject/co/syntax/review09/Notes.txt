@@ -1,0 +1,28 @@
+When we talk about class in Java we can have variables and methods, class will be the template, and we can create as
+many object as we want.
+
+If inside the class I want to create some variables what kind of variables we have?
+We have 3 types
+Local, instance, static
+Difference between instance and static variables:Instance belong to the instance,
+Name, lastName Speciality are instance variables
+a copy of our instances variables will be sharing with all of our objects
+Static holds one value
+method Work(){"all doctors work at hospital"+ hospital};==>this is the method
+print info(){ "doctor"+name+lastName+"is a"+speciality}; ==> this is another method
+when we have many instance variables is best to use constructors
+Constructor is needed to initialize the
+Rules to create a constructor:
+Constructor needs to have the same name of my variable
+Local variable is:declare inside the class and inside a method or constructor and any block of code
+this. keyword do is refers to current instance and can access variables and methods
+this() means is when we try to call a parametrized constructor add variables inside parenthesis to fix it
+Must specify to create a variable a dataType and a name
+static keyword is a non access modifier and is optional to use, and also we can add access modifiers, but we don't need
+to is optional
+
+  Methods:Is a must for  Methods to have a returnType and a name
+  non access modifiers
+
+  Access Modifiers: 4 types
+  most restricted private->default->protected->public

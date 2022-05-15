@@ -1,0 +1,25 @@
+Class 4:
+
+Shorthand operators
+
+  int i=10;
+  i+=100;
+  System.out.println(i);
+
+  Casting: Widening & Narrowing
+  double d=10;//widening
+  System.out.println(d);output//10.0
+   int in=(int)10.99//narrowing
+   System.out.println(in);output//10
+
+   Conditional Statement:
+   1.- if statement: Is a conditional statement that works with boolean values
+   2.- switch case
+
+   Nested if--> if inside another if
+   if(boolean condition){//outer if
+   code A;
+   if(boolean condition){// this is the nested if
+   code B;
+   }
+   }

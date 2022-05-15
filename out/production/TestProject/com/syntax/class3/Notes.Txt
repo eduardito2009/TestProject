@@ -1,0 +1,31 @@
+Class 3:
+{}--> means block of code
+  public class Recap{
+    public static void main(String[] args){
+     String dayTime="morning";
+
+     int date = 22;
+     String month= "January";
+     //Today is morning of January 22.
+     //+ used to attach String to anything
+     String sentence="today is "+ dayTime + " of"+ month + " "+ date;
+
+     System.out.println("today is "+ dayTime + " of"+ month + " "+ date);
+
+    }
+  }
+
+  Casting: Is a process of converting a value from type to another
+  we can cast primitive and non primitive
+  2 type of casting:
+   1) Widening/Implicit/Automatic.- Converting a value from small to big
+   double d=10; automatic goes from int to double because we go from small to bigger
+   byte->short->int->long->float->double
+   2) Narrowing/Explicit/Manually.- Converting a value from big to small
+
+Operators:
+    assignment=
+
+    arithmetical +, -, *, /, %
+
+    relational and equality >, >=, <, <=, ==, !=
